@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ '/logo/logo.png' | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ '/logo/Icon_black.png' | relative_url }}">
 </head>
 <body>
     <!-- Header -->
@@ -24,7 +24,8 @@
         <div class="header-inner">
             <div class="header-title">
                 <a href="{{ '/' | relative_url }}">
-                    <img src="{{ '/logo/logo.avif' | relative_url }}" alt="DataFab" class="logo">
+                    <img src="{{ '/logo/Icon_black.png' | relative_url }}" alt="DataFab" class="logo">
+                    <span class="logo-text">DataFab</span>
                 </a>
             </div>
             <nav class="header-nav">
@@ -106,6 +107,14 @@
         .header-title .logo {
             height: 2rem;
             width: auto;
+            filter: invert(1);
+        }
+
+        .header-title .logo-text {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 0.02em;
         }
 
         .header-nav {
