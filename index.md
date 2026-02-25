@@ -17,22 +17,22 @@ DataFab is an AI-powered data intelligence platform built on a metadata-driven a
 
 ## Documentation
 
-| Document                                                    | Description                                                             | Version |
-| :---------------------------------------------------------- | :---------------------------------------------------------------------- | :-----: |
-| [Introduction](./01-Introduction.md)                        | Platform overview, capabilities, and security summary                   |   1.0   |
-| [Architecture](./02-Architecture.md)                        | System architecture, deployment models, security boundaries             |   1.0   |
-| [Knowledge Fabric](./03-Knowledge-Fabric.md)                | Knowledge graph, entity resolution, MCP connectors, data integration    |   1.0   |
-| [Studio](./04-Studio.md)                                    | DDAs, widgets, datasets, utilities, Chain of Agents, MCP integrations     |   2.0   |
-| [AI & LLM](./05-AI-LLM.md)                                  | LLM security, output consistency, model provenance                      |   1.0   |
-| [CI/CD](./06-CI-CD.md)                                      | CI/CD pipeline security                                                 |   1.0   |
-| [Security Operations](./07-Security-Operations.md)          | SOC, monitoring, incident response                                      |   1.0   |
-| [Graph Operations](./08-Graph-Operations.md)                | Graph rule engine, pattern detection, graph workflows                   |   1.0   |
-| [Schema Management](./09-Schema-Management.md)              | Business domain discovery, schema registry                              |   1.0   |
-| [Compliance Capabilities](./10-Compliance-Capabilities.md)  | Platform compliance features, data hold, retention                      |   1.0   |
-| [API Security](./11-API-Security.md)                        | API gateway, authentication, rate limiting                              |   1.0   |
-| [Exchange](./12-Exchange.md)                                | Data asset marketplace, catalog, wallet & blockchain, metering, access |   1.0   |
-| [Graph RAG](./13-Graph-RAG.md)                              | Graph-enhanced retrieval, hybrid search, context assembly               |   1.0   |
-| [Trust & Compliance](./14-Trust-Compliance.md)              | Managed deployment security, compliance, and governance                 |   1.0   |
+| Document                                                   | Description                                                            | Version |
+| :--------------------------------------------------------- | :--------------------------------------------------------------------- | :-----: |
+| [Introduction](./01-Introduction.md)                       | Platform overview, capabilities, and security summary                  |   3.2   |
+| [Architecture](./02-Architecture.md)                       | System architecture, deployment models, security boundaries            |   5.0   |
+| [Knowledge Fabric](./03-Knowledge-Fabric.md)               | Knowledge graph, entity resolution, MCP connectors, data integration   |   4.0   |
+| [Studio](./04-Studio.md)                                   | DDAs, widgets, datasets, utilities, Chain of Agents, MCP integrations  |   6.0   |
+| [AI & LLM](./05-AI-LLM.md)                                 | LLM security, output consistency, model provenance                     |   3.0   |
+| [CI/CD](./06-CI-CD.md)                                     | CI/CD pipeline security                                                |   2.0   |
+| [Security Operations](./07-Security-Operations.md)         | SOC, monitoring, incident response                                     |   2.0   |
+| [Graph Operations](./08-Graph-Operations.md)               | Graph rule engine, pattern detection, graph workflows                  |   4.2   |
+| [Schema Management](./09-Schema-Management.md)             | Business domain discovery, schema registry                             |   2.0   |
+| [Compliance Capabilities](./10-Compliance-Capabilities.md) | Platform compliance features, data hold, retention                     |   3.0   |
+| [API Security](./11-API-Security.md)                       | API gateway, authentication, rate limiting                             |   5.0   |
+| [Exchange](./12-Exchange.md)                               | Data asset marketplace, catalog, wallet & blockchain, metering, access |   4.0   |
+| [Graph RAG](./13-Graph-RAG.md)                             | Graph-enhanced retrieval, hybrid search, context assembly              |   3.0   |
+| [Trust & Compliance](./14-Trust-Compliance.md)             | Managed deployment security, compliance, and governance                |   2.0   |
 
 
 ---
