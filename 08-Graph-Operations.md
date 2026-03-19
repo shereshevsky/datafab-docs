@@ -5,7 +5,7 @@ title: Graph Operations
 
 # DataFab Graph Operations
 
-**Version:** 4.2
+**Version:** 4.3
 **Last Updated:** January 2026
 
 ---
@@ -171,7 +171,7 @@ The Rule Engine enables administrators to define, version, and execute business 
 | Role-Based Editing | Only authorized roles can create/modify rules |
 | Version Control | All rule changes versioned with full history |
 | Approval Workflow | Rule changes require approval before activation |
-| Testing Required | Rules must pass test suite before deployment |
+| Testing Required | Rules must pass the test suite before deployment |
 | Rollback Support | Previous versions can be restored instantly |
 
 ### Pattern Scoring Rules
@@ -221,7 +221,7 @@ Pattern scoring rules calculate numeric scores based on configurable factors and
 
 | Control | Implementation |
 |:--------|:---------------|
-| Execution Isolation | Rules execute in sandboxed environment |
+| Execution Isolation | Rules execute in a sandboxed environment |
 | Input Validation | All inputs validated against schema |
 | Output Verification | Results validated before action execution |
 | Timeout Enforcement | Maximum execution time enforced |
@@ -299,7 +299,7 @@ The Rule Engine integrates with Graph Workflows to automatically trigger appropr
 │  Entity Event ──▶ [Pattern Detection] ──▶ [Rule Evaluation]         │
 │       │                  │                      │                   │
 │       ▼                  ▼                      ▼                   │
-│  (New entity,        (Score calculated)     (Rules matched)        │
+│  (New entity,        (Score calculated)     (Rules matched)         │
 │   data change,                                  │                   │
 │   alert)                                        ▼                   │
 │                                     [Workflow Selection]            │
@@ -309,9 +309,9 @@ The Rule Engine integrates with Graph Workflows to automatically trigger appropr
 │         [Low Risk]                  [Medium Risk]    [High Risk]    │
 │              │                            │                │        │
 │              ▼                            ▼                ▼        │
-│       Standard Review                Extended Review   Critical    │
-│        Workflow                       Workflow        Review        │
-│              │                            │            Workflow    │
+│       Standard Review                Extended Review   Critical     │
+│        Workflow                       Workflow          Review      │
+│              │                            │            Workflow     │
 │              └────────────────────────────┼────────────────┘        │
 │                                           ▼                         │
 │                                    [Task Assignment]                │
