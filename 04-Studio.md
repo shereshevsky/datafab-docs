@@ -5,7 +5,7 @@ title: Studio
 
 # DataFab Studio
 
-**Version:** 6.0
+**Version:** 6.1
 **Last Updated:** February 2026
 
 ---
@@ -232,7 +232,7 @@ Data-Driven Agents (DDAs) are the fundamental execution unit in Studio. Each DDA
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    DDA STRUCTURE                                  │
+│                    DDA STRUCTURE                                │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
 │  ┌─────────────────────────────────────────────────────────┐    │
@@ -257,8 +257,8 @@ Data-Driven Agents (DDAs) are the fundamental execution unit in Studio. Each DDA
 │                          │                                      │
 │                          ▼                                      │
 │  ┌───────────────┐  ┌────────────┐  ┌────────────────────┐      │
-│  │  Draft/Publish │  │  Execute   │  │  Execution History │      │
-│  │  Lifecycle     │  │  with Files│  │  Tracking          │      │
+│  │  Draft/Publish│  │  Execute   │  │  Execution History │      │
+│  │  Lifecycle    │  │  with Files│  │  Tracking          │      │
 │  └───────────────┘  └────────────┘  └────────────────────┘      │
 └─────────────────────────────────────────────────────────────────┘
 ```
